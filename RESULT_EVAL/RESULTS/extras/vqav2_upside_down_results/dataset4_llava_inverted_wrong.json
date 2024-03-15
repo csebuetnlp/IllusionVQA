@@ -1,0 +1,748 @@
+[
+    {
+        "question": "Which bag is in the middle?",
+        "question_id": 113282001,
+        "image_id": 113282,
+        "answers": [
+            "orange",
+            "orange roller bag",
+            "orange bag",
+            "orange one"
+        ],
+        "image": "113282.jpg",
+        "pred": "black"
+    },
+    {
+        "question": "What is the man doing in the background?",
+        "question_id": 62347003,
+        "image_id": 62347,
+        "answers": [
+            "waving",
+            "getting attention",
+            "boating",
+            "waving jacket"
+        ],
+        "image": "62347.jpg",
+        "pred": "surfing"
+    },
+
+    {
+        "question": "What number bus is this?",
+        "question_id": 59666001,
+        "image_id": 59666,
+        "answers": [
+            "15",
+            "1279",
+            "30",
+            "m15"
+        ],
+        "image": "59666.jpg",
+        "pred": "10"
+    },
+
+    {
+        "question": "That is the image in the back of the bus?",
+        "question_id": 187144002,
+        "image_id": 187144,
+        "answers": [
+            "parachute",
+            "\"what \" image is parachute",
+            "people walking",
+            "yes",
+            "pedestrian crossing"
+        ],
+        "image": "187144.jpg",
+        "pred": "banana"
+    },
+    {
+        "question": "What is on the pond?",
+        "question_id": 396580002,
+        "image_id": 396580,
+        "answers": [
+            "canoe",
+            "boat",
+            "lily pads",
+            "tadpoles"
+        ],
+        "image": "396580.jpg",
+        "pred": "bench"
+    },
+    {
+        "question": "What are the first 4 digits of the phone number in the background?",
+        "question_id": 568653001,
+        "image_id": 568653,
+        "answers": [
+            "800",
+            "1-800",
+            "can't tell",
+            "1800"
+        ],
+        "image": "568653.jpg",
+        "pred": "000"
+    },
+
+    {
+        "question": "What color are the vases?",
+        "question_id": 510515007,
+        "image_id": 510515,
+        "answers": [
+            "gray",
+            "white",
+            "off white",
+            "no vases"
+        ],
+        "image": "510515.jpg",
+        "pred": "clear"
+    },
+
+    {
+        "question": "What is the surfer riding on?",
+        "question_id": 551692000,
+        "image_id": 551692,
+        "answers": [
+            "water",
+            "there is no surfer",
+            "no surfer",
+            "none"
+        ],
+        "image": "551692.jpg",
+        "pred": "surfboard"
+    },
+    {
+        "question": "What type of heat does this home have?",
+        "question_id": 578485001,
+        "image_id": 578485,
+        "answers": [
+            "hot water heat",
+            "electric baseboard",
+            "forced air",
+            "vent",
+            "forced hot water",
+            "baseboard"
+        ],
+        "image": "578485.jpg",
+        "pred": "radiant"
+    },
+    {
+        "question": "What color is the building in the background?",
+        "question_id": 27371037,
+        "image_id": 27371,
+        "answers": [
+            "beige",
+            "grey/beige",
+            "white",
+            "tan"
+        ],
+        "image": "27371.jpg",
+        "pred": "blue"
+    },
+    {
+        "question": "What is the equipment on the floor used for?",
+        "question_id": 407970002,
+        "image_id": 407970,
+        "answers": [
+            "to move refrigerator",
+            "holding food",
+            "keeping food cold",
+            "hold fridge",
+            "refrigeration",
+            "moving items",
+            "refrigerate"
+        ],
+        "image": "407970.jpg",
+        "pred": "cleaning"
+    },
+    {
+        "question": "How many shoes are in this picture?",
+        "question_id": 194208000,
+        "image_id": 194208,
+        "answers": [
+            "1",
+            "4",
+            "6",
+            "8"
+        ],
+        "image": "194208.jpg",
+        "pred": "2"
+    },
+    {
+        "question": "What is that man doing?",
+        "question_id": 100081007,
+        "image_id": 100081,
+        "answers": [
+            "frisbee",
+            "swimming",
+            "playing frisbee",
+            "going into water",
+            "throwing frisbee"
+        ],
+        "image": "100081.jpg",
+        "pred": "surfing"
+    },
+    {
+        "question": "What type of surroundings is this?",
+        "question_id": 478586002,
+        "image_id": 478586,
+        "answers": [
+            "lush",
+            "lake",
+            "pond",
+            "grass",
+            "outdoor pond"
+        ],
+        "image": "478586.jpg",
+        "pred": "forest"
+    },
+    {
+        "question": "How many objects are in the picture?",
+        "question_id": 256973007,
+        "image_id": 256973,
+        "answers": [
+            "10",
+            "11",
+            "7",
+            "8"
+        ],
+        "image": "256973.jpg",
+        "pred": "5"
+    },
+
+    {
+        "question": "How many whiskers does the cat have on the right side of it's face?",
+        "question_id": 350075002,
+        "image_id": 350075,
+        "answers": [
+            "5",
+            "too many to count",
+            "17",
+            "15"
+        ],
+        "image": "350075.jpg",
+        "pred": "10"
+    },
+
+    {
+        "question": "What breed of dog is pictured?",
+        "question_id": 562645008,
+        "image_id": 562645,
+        "answers": [
+            "dachshund",
+            "mixed breed",
+            "mutt",
+            "yorkie",
+            "bulldog"
+        ],
+        "image": "562645.jpg",
+        "pred": "lab"
+    },
+    {
+        "question": "What is covering the person's face?",
+        "question_id": 136770003,
+        "image_id": 136770,
+        "answers": [
+            "beard",
+            "hat",
+            "cap",
+            "nothing"
+        ],
+        "image": "136770.jpg",
+        "pred": "bandana"
+    },
+
+    {
+        "question": "How many palm trees do you see?",
+        "question_id": 242095010,
+        "image_id": 242095,
+        "answers": [
+            "25",
+            "many",
+            "more than 20",
+            "20"
+        ],
+        "image": "242095.jpg",
+        "pred": "10"
+    },
+    {
+        "question": "What is touching the cows nose?",
+        "question_id": 223005007,
+        "image_id": 223005,
+        "answers": [
+            "nothing",
+            "udder",
+            "air",
+            "camera"
+        ],
+        "image": "223005.jpg",
+        "pred": "hay"
+    },
+    {
+        "question": "How were these vegetables cooked?",
+        "question_id": 279027001,
+        "image_id": 279027,
+        "answers": [
+            "roasted",
+            "oven roasted",
+            "oven",
+            "baked"
+        ],
+        "image": "279027.jpg",
+        "pred": "steamed"
+    },
+
+    {
+        "question": "What is she doing?",
+        "question_id": 321176001,
+        "image_id": 321176,
+        "answers": [
+            "standing in rain",
+            "looking",
+            "sheltering in umbrella",
+            "standing",
+            "walking",
+            "protecting herself from rain",
+            "walking with umbrella",
+            "looking at camera"
+        ],
+        "image": "321176.jpg",
+        "pred": "taking selfie"
+    },
+
+    {
+        "question": "What is the man holding?",
+        "question_id": 529139007,
+        "image_id": 529139,
+        "answers": [
+            "hand controls",
+            "remote",
+            "wi game",
+            "wii remote",
+            "wii controller",
+            "wiimote"
+        ],
+        "image": "529139.jpg",
+        "pred": "mouse"
+    },
+
+    {
+        "question": "What character is on the top right of the right pane?",
+        "question_id": 409867002,
+        "image_id": 409867,
+        "answers": [
+            "cat",
+            "more",
+            "eeyore",
+            "eoar"
+        ],
+        "image": "409867.jpg",
+        "pred": "dora"
+    },
+    {
+        "question": "What is the man cooking?",
+        "question_id": 564332002,
+        "image_id": 564332,
+        "answers": [
+            "bread and cookies",
+            "pizza",
+            "pastries",
+            "cookies"
+        ],
+        "image": "564332.jpg",
+        "pred": "bread"
+    },
+    {
+        "question": "What is on the wall?",
+        "question_id": 44743006,
+        "image_id": 44743,
+        "answers": [
+            "bricks",
+            "man",
+            "painting",
+            "skateboard",
+            "brick"
+        ],
+        "image": "44743.jpg",
+        "pred": "graffiti"
+    },
+    {
+        "question": "How many bananas are in this picture?",
+        "question_id": 370388002,
+        "image_id": 370388,
+        "answers": [
+            "15",
+            "16",
+            "17",
+            "14"
+        ],
+        "image": "370388.jpg",
+        "pred": "10"
+    },
+    {
+        "question": "Where is this picture probably taken?",
+        "question_id": 417085018,
+        "image_id": 417085,
+        "answers": [
+            "at farmlands",
+            "rural",
+            "country",
+            "wild",
+            "outside"
+        ],
+        "image": "417085.jpg",
+        "pred": "farm"
+    },
+
+    {
+        "question": "Why is there a white line going down the street?",
+        "question_id": 314313008,
+        "image_id": 314313,
+        "answers": [
+            "traffic lanes",
+            "to guide traffic",
+            "to separate lanes",
+            "lane separation",
+            "separate lanes",
+            "to divide lanes",
+            "to mark traffic lanes so people don't hit each other"
+        ],
+        "image": "314313.jpg",
+        "pred": "yes"
+    },
+
+    {
+        "question": "What kind of products are on the toilet back?",
+        "question_id": 560279002,
+        "image_id": 560279,
+        "answers": [
+            "air fresheners",
+            "cleaners",
+            "candle in holder and spray bottle",
+            "cleaning products"
+        ],
+        "image": "560279.jpg",
+        "pred": "toilet paper"
+    },
+    {
+        "question": "What is on top of the pizza?",
+        "question_id": 407945001,
+        "image_id": 407945,
+        "answers": [
+            "tomato, onion, pepper, and olive",
+            "tomatoes",
+            "tomato",
+            "tomato, green pepper",
+            "tomato, green olive, and cheese",
+            "cheese and tomatoes"
+        ],
+        "image": "407945.jpg",
+        "pred": "cheese"
+    },
+    {
+        "question": "What is pictured on the screen?",
+        "question_id": 76484000,
+        "image_id": 76484,
+        "answers": [
+            "mouse, remote",
+            "apple electronics",
+            "mouse",
+            "ipod",
+            "mouse and usb drive"
+        ],
+        "image": "76484.jpg",
+        "pred": "remote"
+    },
+
+    {
+        "question": "How many cabinets are in the kitchen?",
+        "question_id": 285007001,
+        "image_id": 285007,
+        "answers": [
+            "6",
+            "10",
+            "3",
+            "8"
+        ],
+        "image": "285007.jpg",
+        "pred": "4"
+    },
+
+    {
+        "question": "What color is the street?",
+        "question_id": 121143005,
+        "image_id": 121143,
+        "answers": [
+            "brown",
+            "re",
+            "reddish",
+            "red"
+        ],
+        "image": "121143.jpg",
+        "pred": "blue"
+    },
+    {
+        "question": "How many pictures of children are there?",
+        "question_id": 191270001,
+        "image_id": 191270,
+        "answers": [
+            "5",
+            "4",
+            "7",
+            "3"
+        ],
+        "image": "191270.jpg",
+        "pred": "10"
+    },
+    {
+        "question": "What is wrote on the boat?",
+        "question_id": 74280003,
+        "image_id": 74280,
+        "answers": [
+            "website",
+            "company",
+            "wwr",
+            "website address"
+        ],
+        "image": "74280.jpg",
+        "pred": "man"
+    },
+
+    {
+        "question": "Where is the bike?",
+        "question_id": 71239001,
+        "image_id": 71239,
+        "answers": [
+            "parked",
+            "in field",
+            "gravel",
+            "side of road",
+            "on gravel",
+            "gravel road"
+        ],
+        "image": "71239.jpg",
+        "pred": "grass"
+    },
+
+    {
+        "question": "What is the color of the cat?",
+        "question_id": 377012006,
+        "image_id": 377012,
+        "answers": [
+            "multi",
+            "gray, black and white",
+            "gray and black and white",
+            "brown and white",
+            "black gray white"
+        ],
+        "image": "377012.jpg",
+        "pred": "brown"
+    },
+    {
+        "question": "What's happening to the man?",
+        "question_id": 490878002,
+        "image_id": 490878,
+        "answers": [
+            "he's getting cold",
+            "ice skating",
+            "skiing",
+            "he's skiing"
+        ],
+        "image": "490878.jpg",
+        "pred": "flipped"
+    },
+
+    {
+        "question": "What type of furniture is the cat sitting on?",
+        "question_id": 381037009,
+        "image_id": 381037,
+        "answers": [
+            "table",
+            "floor",
+            "none",
+            "nothing"
+        ],
+        "image": "381037.jpg",
+        "pred": "refrigerator"
+    },
+    {
+        "question": "What time is it?",
+        "question_id": 11182002,
+        "image_id": 11182,
+        "answers": [
+            "7:15",
+            "3:35",
+            "3:30",
+            "2:35"
+        ],
+        "image": "11182.jpg",
+        "pred": "12:00"
+    },
+    {
+        "question": "From where is the photo being taken?",
+        "question_id": 258209003,
+        "image_id": 258209,
+        "answers": [
+            "street",
+            "behind",
+            "across street",
+            "outside"
+        ],
+        "image": "258209.jpg",
+        "pred": "ground"
+    },
+    {
+        "question": "What are the tall poles for?",
+        "question_id": 201555000,
+        "image_id": 201555,
+        "answers": [
+            "lights",
+            "light",
+            "yes",
+            "light poles"
+        ],
+        "image": "201555.jpg",
+        "pred": "traffic lights"
+    },
+
+    {
+        "question": "What is hanging on the drawer pull?",
+        "question_id": 67785002,
+        "image_id": 67785,
+        "answers": [
+            "shopping bag",
+            "tote bag",
+            "bag",
+            "box"
+        ],
+        "image": "67785.jpg",
+        "pred": "nothing"
+    },
+    {
+        "question": "How many people are in the photo?",
+        "question_id": 400887002,
+        "image_id": 400887,
+        "answers": [
+            "many",
+            "5",
+            "10",
+            "7"
+        ],
+        "image": "400887.jpg",
+        "pred": "3"
+    },
+    {
+        "question": "How many people  seen on the beach?",
+        "question_id": 424601017,
+        "image_id": 424601,
+        "answers": [
+            "5",
+            "4",
+            "6",
+            "8"
+        ],
+        "image": "424601.jpg",
+        "pred": "0"
+    },
+
+    {
+        "question": "What eating utensils are visible in this scene?",
+        "question_id": 497501002,
+        "image_id": 497501,
+        "answers": [
+            "spoon knife fork",
+            "knife fork spoon",
+            "spoon, fork and knife",
+            "fork, spoon, knife",
+            "spoon,knife,fork",
+            "fork, knife, spoon",
+            "spoon,fork,knife",
+            "spoon, fork, knife"
+        ],
+        "image": "497501.jpg",
+        "pred": "fork and knife"
+    },
+    {
+        "question": "Whose mouth is open?",
+        "question_id": 72582012,
+        "image_id": 72582,
+        "answers": [
+            "no one",
+            "girl",
+            "no one's",
+            "no ones",
+            "woman",
+            "none"
+        ],
+        "image": "72582.jpg",
+        "pred": "man"
+    },
+    {
+        "question": "What is the boy in black holding?",
+        "question_id": 189305005,
+        "image_id": 189305,
+        "answers": [
+            "pad",
+            "closed hand",
+            "nothing",
+            "tablet"
+        ],
+        "image": "189305.jpg",
+        "pred": "laptop"
+    },
+    {
+        "question": "How was this photo taken?",
+        "question_id": 521509007,
+        "image_id": 521509,
+        "answers": [
+            "timer",
+            "with tripod",
+            "camera on tripod, into mirror with timer used",
+            "in mirror",
+            "in front of mirror",
+            "mirror"
+        ],
+        "image": "521509.jpg",
+        "pred": "selfie"
+    },
+    {
+        "question": "How many blondes in the photo?",
+        "question_id": 300784000,
+        "image_id": 300784,
+        "answers": [
+            "0",
+            "1",
+            "2",
+            "6"
+        ],
+        "image": "300784.jpg",
+        "pred": "3"
+    },
+    {
+        "question": "What is the animal eating?",
+        "question_id": 70187007,
+        "image_id": 70187,
+        "answers": [
+            "feed",
+            "food",
+            "hey",
+            "horse food",
+            "oats",
+            "nothing"
+        ],
+        "image": "70187.jpg",
+        "pred": "grass"
+    },
+    {
+        "question": "What is connected to the boys feet?",
+        "question_id": 42190001,
+        "image_id": 42190,
+        "answers": [
+            "board",
+            "kiteboard",
+            "water ski",
+            "water board",
+            "wakeboard",
+            "surfboard"
+        ],
+        "image": "42190.jpg",
+        "pred": "rope"
+    }
+]

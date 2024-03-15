@@ -1,0 +1,1041 @@
+[
+    {
+        "question": "Which bag is in the middle?",
+        "question_id": 113282001,
+        "image_id": 113282,
+        "answers": [
+            "orange",
+            "orange roller bag",
+            "orange bag",
+            "orange one"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/113282.jpg",
+        "pred": "an orange suitcase"
+    },
+    {
+        "question": "Where are tiles?",
+        "question_id": 4296006,
+        "image_id": 4296,
+        "answers": [
+            "floor",
+            "on floor",
+            "on ground",
+            "in trash"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/4296.jpg",
+        "pred": "ceiling"
+    },
+
+    {
+        "question": "What is the man doing in the background?",
+        "question_id": 62347003,
+        "image_id": 62347,
+        "answers": [
+            "waving",
+            "getting attention",
+            "boating",
+            "waving jacket"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/62347.jpg",
+        "pred": "surfing"
+    },
+
+    {
+        "question": "What is he getting ready for?",
+        "question_id": 437374006,
+        "image_id": 437374,
+        "answers": [
+            "wii gaming",
+            "gaming",
+            "video games",
+            "playing wii",
+            "to play video game",
+            "to play wii",
+            "playing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/437374.jpg",
+        "pred": "wii bowling"
+    },
+    {
+        "question": "That is the image in the back of the bus?",
+        "question_id": 187144002,
+        "image_id": 187144,
+        "answers": [
+            "parachute",
+            "\"what \" image is parachute",
+            "people walking",
+            "yes",
+            "pedestrian crossing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/187144.jpg",
+        "pred": "reflection"
+    },
+    {
+        "question": "What is on top of the car?",
+        "question_id": 245013002,
+        "image_id": 245013,
+        "answers": [
+            "bear",
+            "stuffed animal",
+            "teddy bear",
+            "stuffed polar bear"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/245013.jpg",
+        "pred": "santa claus"
+    },
+    {
+        "question": "What is the skateboard on?",
+        "question_id": 386204084,
+        "image_id": 386204,
+        "answers": [
+            "asphalt",
+            "street",
+            "ground",
+            "road",
+            "feet"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/386204.jpg",
+        "pred": "a wall"
+    },
+    {
+        "question": "How deep is snow?",
+        "question_id": 566234002,
+        "image_id": 566234,
+        "answers": [
+            "deep",
+            "3 feet",
+            "6 ft",
+            "not deep"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/566234.jpg",
+        "pred": "knee-deep"
+    },
+    {
+        "question": "How many vases are on the table?",
+        "question_id": 277659002,
+        "image_id": 277659,
+        "answers": [
+            "10",
+            "11",
+            "8",
+            "9"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/277659.jpg",
+        "pred": "none"
+    },
+    {
+        "question": "What color did the boat used to be?",
+        "question_id": 31481001,
+        "image_id": 31481,
+        "answers": [
+            "white and blue",
+            "red",
+            "red white & blue",
+            "red and white",
+            "red, white, and blue",
+            "white, red, and blue"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/31481.jpg",
+        "pred": "green and white"
+    },
+    {
+        "question": "What color are the vases?",
+        "question_id": 510515007,
+        "image_id": 510515,
+        "answers": [
+            "gray",
+            "white",
+            "off white",
+            "no vases"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/510515.jpg",
+        "pred": "green"
+    },
+    {
+        "question": "What is in the man's hand?",
+        "question_id": 490280007,
+        "image_id": 490280,
+        "answers": [
+            "hair",
+            "pen and paper",
+            "book",
+            "paper",
+            "papers"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/490280.jpg",
+        "pred": "a newspaper"
+    },
+    {
+        "question": "What are the wheels made of?",
+        "question_id": 268394000,
+        "image_id": 268394,
+        "answers": [
+            "i don't know",
+            "fondant",
+            "cake",
+            "plastic"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/268394.jpg",
+        "pred": "licorice"
+    },
+
+
+    {
+        "question": "What is the surfer riding on?",
+        "question_id": 551692000,
+        "image_id": 551692,
+        "answers": [
+            "water",
+            "there is no surfer",
+            "no surfer",
+            "none"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/551692.jpg",
+        "pred": "a wave"
+    },
+
+    {
+        "question": "What is the equipment on the floor used for?",
+        "question_id": 407970002,
+        "image_id": 407970,
+        "answers": [
+            "to move refrigerator",
+            "holding food",
+            "keeping food cold",
+            "hold fridge",
+            "refrigeration",
+            "moving items",
+            "refrigerate"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/407970.jpg",
+        "pred": "lighting"
+    },
+
+
+    {
+        "question": "How many shoes are in this picture?",
+        "question_id": 194208000,
+        "image_id": 194208,
+        "answers": [
+            "1",
+            "4",
+            "6",
+            "8"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/194208.jpg",
+        "pred": "3"
+    },
+    {
+        "question": "What is that man doing?",
+        "question_id": 100081007,
+        "image_id": 100081,
+        "answers": [
+            "frisbee",
+            "swimming",
+            "playing frisbee",
+            "going into water",
+            "throwing frisbee"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/100081.jpg",
+        "pred": "surfing"
+    },
+
+    {
+        "question": "What pattern is on the carpet?",
+        "question_id": 244159020,
+        "image_id": 244159,
+        "answers": [
+            "flowers",
+            "flowered",
+            "solid",
+            "floral"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/244159.jpg",
+        "pred": "paisley"
+    },
+
+    {
+        "question": "How many people are in the picture?",
+        "question_id": 175785020,
+        "image_id": 175785,
+        "answers": [
+            "10",
+            "7",
+            "8",
+            "9"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/175785.jpg",
+        "pred": "block_reason: other"
+    },
+
+    {
+        "question": "What's on it, besides cheese?",
+        "question_id": 164635003,
+        "image_id": 164635,
+        "answers": [
+            "pepperoni olives",
+            "black olives",
+            "olives and tomatoes",
+            "olives and cheese",
+            "olives"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/164635.jpg",
+        "pred": "toppings"
+    },
+
+    {
+        "question": "What is reflected in the car's side mirror?",
+        "question_id": 365207000,
+        "image_id": 365207,
+        "answers": [
+            "building and more cars and dog",
+            "house",
+            "building and dog and car",
+            "building",
+            "dog"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/365207.jpg",
+        "pred": "a car and a building"
+    },
+    {
+        "question": "What food is this?",
+        "question_id": 447233010,
+        "image_id": 447233,
+        "answers": [
+            "egg and vegetables",
+            "broccoli/egg",
+            "egg and broccoli",
+            "egg",
+            "eggs"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/447233.jpg",
+        "pred": "this is a portobello mushroom"
+    },
+
+ 
+    {
+        "question": "Why do you think the dog is on the surfboard?",
+        "question_id": 495048000,
+        "image_id": 495048,
+        "answers": [
+            "for fun",
+            "surfing",
+            "to play",
+            "playing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/495048.jpg",
+        "pred": "balance"
+    },
+
+    {
+        "question": "Where is the clock?",
+        "question_id": 185993001,
+        "image_id": 185993,
+        "answers": [
+            "middle of photo",
+            "in front of trees",
+            "on pole",
+            "on stand on street",
+            "in air"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/185993.jpg",
+        "pred": "the clock is hanging from a street lamp or similar structure"
+    },
+
+    {
+        "question": "Where is the woman?",
+        "question_id": 551974045,
+        "image_id": 551974,
+        "answers": [
+            "home",
+            "living room",
+            "in room",
+            "in front of tv"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/551974.jpg",
+        "pred": "block_reason: other"
+    },
+
+    {
+        "question": "How many palm trees do you see?",
+        "question_id": 242095010,
+        "image_id": 242095,
+        "answers": [
+            "25",
+            "many",
+            "more than 20",
+            "20"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/242095.jpg",
+        "pred": "3"
+    },
+    {
+        "question": "What is touching the cows nose?",
+        "question_id": 223005007,
+        "image_id": 223005,
+        "answers": [
+            "nothing",
+            "udder",
+            "air",
+            "camera"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/223005.jpg",
+        "pred": "hay"
+    },
+    {
+        "question": "Where are the cows?",
+        "question_id": 119038004,
+        "image_id": 119038,
+        "answers": [
+            "in pasture",
+            "field",
+            "mountains",
+            "in field",
+            "pasture"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/119038.jpg",
+        "pred": "upside down"
+    },
+    {
+        "question": "What is the boy holding in his hands?",
+        "question_id": 140174012,
+        "image_id": 140174,
+        "answers": [
+            "remote",
+            "wii remote",
+            "wii controller",
+            "wiimote",
+            "controller"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/140174.jpg",
+        "pred": "block_reason: other"
+    },
+
+
+    {
+        "question": "What color is the plate in the person's hand?",
+        "question_id": 501491020,
+        "image_id": 501491,
+        "answers": [
+            "gray",
+            "white",
+            "light blue",
+            "blue"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/501491.jpg",
+        "pred": "green"
+    },
+
+    {
+        "question": "What is being loaded onto the train?",
+        "question_id": 384594006,
+        "image_id": 384594,
+        "answers": [
+            "can't see",
+            "passengers",
+            "people",
+            "nothing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/384594.jpg",
+        "pred": "automobiles"
+    },
+    {
+        "question": "What is the man doing with his mouth?",
+        "question_id": 248400012,
+        "image_id": 248400,
+        "answers": [
+            "making oval",
+            "eating",
+            "opening it",
+            "making weird expression",
+            "nothing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/248400.jpg",
+        "pred": "screaming"
+    },
+    {
+        "question": "What is the man wearing on his head?",
+        "question_id": 331403000,
+        "image_id": 331403,
+        "answers": [
+            "cap",
+            "beanie",
+            "hat",
+            "stocking cap",
+            "nothing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/331403.jpg",
+        "pred": "goggles"
+    },
+
+    {
+        "question": "Where is the girl running with the kite?",
+        "question_id": 399462001,
+        "image_id": 399462,
+        "answers": [
+            "park",
+            "grass",
+            "in field",
+            "towards camera"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/399462.jpg",
+        "pred": "upside down"
+    },
+
+    {
+        "question": "What is this person doing?",
+        "question_id": 320641006,
+        "image_id": 320641,
+        "answers": [
+            "riding",
+            "riding bike",
+            "bicycling",
+            "biking",
+            "bike riding"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/320641.jpg",
+        "pred": "wheelie"
+    },
+
+ 
+    {
+        "question": "How many bananas are in this picture?",
+        "question_id": 370388002,
+        "image_id": 370388,
+        "answers": [
+            "15",
+            "16",
+            "17",
+            "14"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/370388.jpg",
+        "pred": "there are 10 bananas in this picture"
+    },
+    {
+        "question": "What is hanging from the top of the cup?",
+        "question_id": 414034009,
+        "image_id": 414034,
+        "answers": [
+            "sippy",
+            "spout",
+            "lid",
+            "nothing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/414034.jpg",
+        "pred": "a straw"
+    },
+    {
+        "question": "What pattern is on the umbrella?",
+        "question_id": 60052001,
+        "image_id": 60052,
+        "answers": [
+            "flower",
+            "flowers",
+            "leaves",
+            "floral"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/60052.jpg",
+        "pred": "paisley"
+    },
+
+    {
+        "question": "Where are the cows?",
+        "question_id": 339512002,
+        "image_id": 339512,
+        "answers": [
+            "in pasture",
+            "field",
+            "in field",
+            "yes",
+            "behind barbed wire",
+            "behind fence",
+            "outside"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/339512.jpg",
+        "pred": "upside down"
+    },
+    {
+        "question": "What is in the frame on the wall?",
+        "question_id": 36661009,
+        "image_id": 36661,
+        "answers": [
+            "black",
+            "notes",
+            "blue squares",
+            "pictures",
+            "square",
+            "picture"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/36661.jpg",
+        "pred": "a window"
+    },
+
+
+    {
+        "question": "Why is there a white line going down the street?",
+        "question_id": 314313008,
+        "image_id": 314313,
+        "answers": [
+            "traffic lanes",
+            "to guide traffic",
+            "to separate lanes",
+            "lane separation",
+            "separate lanes",
+            "to divide lanes",
+            "to mark traffic lanes so people don't hit each other"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/314313.jpg",
+        "pred": "reflection"
+    },
+
+    {
+        "question": "What should the man be wearing on his hands?",
+        "question_id": 570515002,
+        "image_id": 570515,
+        "answers": [
+            "potholders",
+            "oven mitt",
+            "oven mitts",
+            "pot holders",
+            "gloves",
+            "mitts"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/570515.jpg",
+        "pred": "block_reason: other"
+    },
+
+    {
+        "question": "What kind of products are on the toilet back?",
+        "question_id": 560279002,
+        "image_id": 560279,
+        "answers": [
+            "air fresheners",
+            "cleaners",
+            "candle in holder and spray bottle",
+            "cleaning products"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/560279.jpg",
+        "pred": "paper products"
+    },
+    {
+        "question": "What is on top of the pizza?",
+        "question_id": 407945001,
+        "image_id": 407945,
+        "answers": [
+            "tomato, onion, pepper, and olive",
+            "tomatoes",
+            "tomato",
+            "tomato, green pepper",
+            "tomato, green olive, and cheese",
+            "cheese and tomatoes"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/407945.jpg",
+        "pred": "toppings"
+    },
+    {
+        "question": "What is on the woman's head?",
+        "question_id": 254167000,
+        "image_id": 254167,
+        "answers": [
+            "toboggan",
+            "hat",
+            "beanie",
+            "cap"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/254167.jpg",
+        "pred": "a beret"
+    },
+    {
+        "question": "Why are they laying down?",
+        "question_id": 83960002,
+        "image_id": 83960,
+        "answers": [
+            "because they are tired",
+            "tired",
+            "resting",
+            "napping"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/83960.jpg",
+        "pred": "they are both dead"
+    },
+
+
+    {
+        "question": "What is the man wearing?",
+        "question_id": 187822003,
+        "image_id": 187822,
+        "answers": [
+            "t-shirt, shorts",
+            "shorts",
+            "knee pads, helmet",
+            "helmet",
+            "shorts and t-shirt",
+            "clothes"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/187822.jpg",
+        "pred": "the man is wearing a red shirt, black pants, and a helmet"
+    },
+    {
+        "question": "What is pictured on the screen?",
+        "question_id": 76484000,
+        "image_id": 76484,
+        "answers": [
+            "mouse, remote",
+            "apple electronics",
+            "mouse",
+            "ipod",
+            "mouse and usb drive"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/76484.jpg",
+        "pred": "a screenshot of a laptop with a magic mouse and a magic trackpad"
+    },
+    {
+        "question": "What color is the van?",
+        "question_id": 254919001,
+        "image_id": 254919,
+        "answers": [
+            "no van",
+            "blue",
+            "black",
+            "silver"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/254919.jpg",
+        "pred": "red and white"
+    },
+    {
+        "question": "How many cabinets are in the kitchen?",
+        "question_id": 285007001,
+        "image_id": 285007,
+        "answers": [
+            "6",
+            "10",
+            "3",
+            "8"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/285007.jpg",
+        "pred": "5"
+    },
+
+    {
+        "question": "What color is the street?",
+        "question_id": 121143005,
+        "image_id": 121143,
+        "answers": [
+            "brown",
+            "re",
+            "reddish",
+            "red"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/121143.jpg",
+        "pred": "blue"
+    },
+    {
+        "question": "What are the giraffes walking on?",
+        "question_id": 508291013,
+        "image_id": 508291,
+        "answers": [
+            "2",
+            "grass",
+            "plain",
+            "grass field"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/508291.jpg",
+        "pred": "water"
+    },
+
+
+    {
+        "question": "How many pictures of children are there?",
+        "question_id": 191270001,
+        "image_id": 191270,
+        "answers": [
+            "5",
+            "4",
+            "7",
+            "3"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/191270.jpg",
+        "pred": "8"
+    },
+    {
+        "question": "What is wrote on the boat?",
+        "question_id": 74280003,
+        "image_id": 74280,
+        "answers": [
+            "website",
+            "company",
+            "wwr",
+            "website address"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/74280.jpg",
+        "pred": "the boat is named \"glacier lagoon\""
+    },
+
+
+    {
+        "question": "Where is the bike?",
+        "question_id": 71239001,
+        "image_id": 71239,
+        "answers": [
+            "parked",
+            "in field",
+            "gravel",
+            "side of road",
+            "on gravel",
+            "gravel road"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/71239.jpg",
+        "pred": "upside down"
+    },
+
+    {
+        "question": "What is on the sidewalk between the parking meter's?",
+        "question_id": 230450006,
+        "image_id": 230450,
+        "answers": [
+            "weeds",
+            "grass",
+            "concrete",
+            "meters",
+            "parking sign",
+            "nothing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/230450.jpg",
+        "pred": "scaffolding"
+    },
+
+    {
+        "question": "What color is the court?",
+        "question_id": 445908004,
+        "image_id": 445908,
+        "answers": [
+            "blue",
+            "green, blue and white",
+            "green and blue",
+            "blue and green",
+            "blue green"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/445908.jpg",
+        "pred": "green"
+    },
+
+    {
+        "question": "What type of furniture is the cat sitting on?",
+        "question_id": 381037009,
+        "image_id": 381037,
+        "answers": [
+            "table",
+            "floor",
+            "none",
+            "nothing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/381037.jpg",
+        "pred": "fridge"
+    },
+
+    {
+        "question": "From where is the photo being taken?",
+        "question_id": 258209003,
+        "image_id": 258209,
+        "answers": [
+            "street",
+            "behind",
+            "across street",
+            "outside"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/258209.jpg",
+        "pred": "above"
+    },
+
+    {
+        "question": "What are the tall poles for?",
+        "question_id": 201555000,
+        "image_id": 201555,
+        "answers": [
+            "lights",
+            "light",
+            "yes",
+            "light poles"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/201555.jpg",
+        "pred": "traffic lights"
+    },
+
+    {
+        "question": "Who is going to eat this?",
+        "question_id": 333712000,
+        "image_id": 333712,
+        "answers": [
+            "person",
+            "photographer",
+            "people",
+            "bugs",
+            "someone"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/333712.jpg",
+        "pred": "pizza"
+    },
+    {
+        "question": "How far away is the barn?",
+        "question_id": 9270001,
+        "image_id": 9270,
+        "answers": [
+            "50 ft",
+            "yes",
+            "kind of far",
+            "10 feet"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/9270.jpg",
+        "pred": "about 20 feet"
+    },
+    {
+        "question": "What is hanging on the drawer pull?",
+        "question_id": 67785002,
+        "image_id": 67785,
+        "answers": [
+            "shopping bag",
+            "tote bag",
+            "bag",
+            "box"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/67785.jpg",
+        "pred": "a pacifier"
+    },
+
+    {
+        "question": "How many people are in the photo?",
+        "question_id": 400887002,
+        "image_id": 400887,
+        "answers": [
+            "many",
+            "5",
+            "10",
+            "7"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/400887.jpg",
+        "pred": "8"
+    },
+
+
+
+    {
+        "question": "What eating utensils are visible in this scene?",
+        "question_id": 497501002,
+        "image_id": 497501,
+        "answers": [
+            "spoon knife fork",
+            "knife fork spoon",
+            "spoon, fork and knife",
+            "fork, spoon, knife",
+            "spoon,knife,fork",
+            "fork, knife, spoon",
+            "spoon,fork,knife",
+            "spoon, fork, knife"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/497501.jpg",
+        "pred": "fork and knife"
+    },
+
+    {
+        "question": "Whose mouth is open?",
+        "question_id": 72582012,
+        "image_id": 72582,
+        "answers": [
+            "no one",
+            "girl",
+            "no one's",
+            "no ones",
+            "woman",
+            "none"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/72582.jpg",
+        "pred": "the man in the blue shirt"
+    },
+
+    {
+        "question": "What is the boy in black holding?",
+        "question_id": 189305005,
+        "image_id": 189305,
+        "answers": [
+            "pad",
+            "closed hand",
+            "nothing",
+            "tablet"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/189305.jpg",
+        "pred": "a laptop"
+    },
+    {
+        "question": "How was this photo taken?",
+        "question_id": 521509007,
+        "image_id": 521509,
+        "answers": [
+            "timer",
+            "with tripod",
+            "camera on tripod, into mirror with timer used",
+            "in mirror",
+            "in front of mirror",
+            "mirror"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/521509.jpg",
+        "pred": "the photo was taken by a camera that was attached to a tripod that was attached to the ceiling"
+    },
+    {
+        "question": "Where is the player?",
+        "question_id": 368836008,
+        "image_id": 368836,
+        "answers": [
+            "court",
+            "field",
+            "tennis court",
+            "on field",
+            "on court"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/368836.jpg",
+        "pred": "upside down"
+    },
+    {
+        "question": "Where is this?",
+        "question_id": 349302002,
+        "image_id": 349302,
+        "answers": [
+            "africa",
+            "wildlife preserve",
+            "zoo",
+            "outside"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/349302.jpg",
+        "pred": "upside-down"
+    },
+
+    {
+        "question": "How high can the black dog jump?",
+        "question_id": 157099001,
+        "image_id": 157099,
+        "answers": [
+            "very high",
+            "no high",
+            "several feet",
+            "3 feet"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/157099.jpg",
+        "pred": "frisbee"
+    },
+
+
+    {
+        "question": "What is the animal eating?",
+        "question_id": 70187007,
+        "image_id": 70187,
+        "answers": [
+            "feed",
+            "food",
+            "hey",
+            "horse food",
+            "oats",
+            "nothing"
+        ],
+        "image_path": "illusionVQA/dataset4/EVAL/70187.jpg",
+        "pred": "grass"
+    }
+]
