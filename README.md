@@ -113,7 +113,7 @@ print(gpt4_answer)
 ```
 
 ## License
-This dataset is made available for non-commercial research purposes only, including for evaluation of model performance. The dataset may not be used for training models. The dataset contains images collected from the internet. While permission has been obtained from some of the images' creators, permission has not yet been received from all creators. If you believe any image in this dataset is used without proper permission and you are the copyright holder, please get in touch with hshah057@ucr.edu to request the removal of the image from the dataset.
+This dataset is made available for non-commercial research purposes only, including for evaluation of model performance. The dataset may not be used for training models. The dataset contains images collected from the internet. While permission has been obtained from some of the images' creators, permission has not yet been received from all creators. If you believe any image in this dataset is used without proper permission and you are the copyright holder, please get in touch with sameen2080@gmail.com to request the removal of the image from the dataset.
 
 The dataset creator makes no representations or warranties regarding the copyright status of the images in the dataset. Use of this dataset is at your own risk. The dataset creator shall not be held liable for any unauthorized use of copyrighted material that may be contained in the dataset.
 
