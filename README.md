@@ -7,7 +7,7 @@ Soft-Localization Dataset: [link](https://huggingface.co/datasets/csebuetnlp/ill
 ## TL;DR
 IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes designed to test the capability of Vision Language Models in comprehension and soft localization tasks. GPT4V achieved 62.99% accuracy on comprehension and 49.7% on localization, while humans achieved 91.03% and 100% respectively.
 ## Usage
-```
+```python
 from datasets import load_dataset
 import base64
 from openai import OpenAI
