@@ -4,9 +4,8 @@ Paper Link: <br>
 Comprehension Dataset:     [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) <br>
 Soft-Localization Dataset: [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization)<br>
 
-## Abstract
-The advent of Vision Language Models (VLM) has allowed researchers to investigate the visual understanding of a neural network using natural language. Beyond classical object classification, detection, and segmentation, VLMs are now capable of visual comprehension and advanced reasoning. This naturally led us to ask the question: How do VLMs respond when the image itself is inherently <i>unreasonable</i>? To this end, we present IllusionVQA: a diverse dataset of challenging optical illusions and hard-to-interpret scenes to test the capability of VLMs in two distinct multiple-choice VQA tasks - comprehension and soft localization. On the comprehension task, the best performing VLM (GPT4V) achieves 62.99% accuracy (4-shot) and 49.7% on the localization task (4-shot and Chain-of-Thought). Human evaluation reveals that humans achieve 91.03% and 100% accuracy in comprehension and localization. We discover that In-Context Learning (ICL) and Chain-of-Thought reasoning substantially degrade the performance of Gemini-Pro on the localization task. Tangentially, we discover a potential weakness in the ICL capabilities of VLMs: they fail to locate optical illusions even when the correct answer is in the context window as a few-shot example.
-
+## TL;DR
+IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes, to test the capability of Vision Language Models in comprehension and soft localization tasks. GPT4V achieved 62.99% accuracy on comprehension and 49.7% on localization, while humans achieved 91.03% and 100% respectively.
 ## Usage
 ```
 from datasets import load_dataset
