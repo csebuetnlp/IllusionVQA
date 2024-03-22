@@ -22,7 +22,7 @@ def encode_image(pil_image):
 
 def construct_mcq(options, correct_option):
     correct_option_letter = None
-    i = "a"
+    i = "A"
     mcq = ""
 
     for option in options:
