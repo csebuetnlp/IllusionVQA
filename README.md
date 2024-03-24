@@ -11,6 +11,7 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 
 ## Results
 <img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/spider_graph_3.png?raw=true" width=100>
+
 ### IllusionVQA-Comprehension
 | Class            | #   | | 0-shot |       |      |        |       | | 4-shot |       | | Human |
 |------------------|-----|-|--------|-------|------|--------|-------|-|--------|-------|-|-------|
