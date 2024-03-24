@@ -1,4 +1,5 @@
 # IllusionVQA: Optical Illusion Dataset
+![examples](https://github.com/csebuetnlp/IllusionVQA/blob/main/asset/example.png?raw=true)
 
 Paper Link: <br>
 IllusionVQA-Comprehension:     [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) <br>
@@ -6,6 +7,45 @@ IllusionVQA-Soft-Localization: [link](https://huggingface.co/datasets/csebuetnlp
 
 ## TL;DR
 IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes designed to test the capability of Vision Language Models in comprehension and soft localization tasks. GPT4V achieved 62.99% accuracy on comprehension and 49.7% on localization, while humans achieved 91.03% and 100% respectively.
+
+
+## Results
+![spider_graph](https://github.com/csebuetnlp/IllusionVQA/blob/main/asset/spider_graph_3.png?raw=true)
+
+### IllusionVQA-Comprehension
+| Class            | #   | | 0-shot |       |      |        |       | | 4-shot |       | | Human |
+|------------------|-----|-|--------|-------|------|--------|-------|-|--------|-------|-|-------|
+|                  |     | | I-BLIP | LLaVA | Cog  | Gemini | GPT4V | | Gemini | GPT4V | |       |
+| Impossible Object| 134 | | 34.22  | 43.28 | 44.03| 56.72  | 55.22 | | 56.72  | 58.96 | | 98.51 |
+| Real-Scene       | 64  | | 26.56  | 42.19 | 34.38| 46.88  | 57.81 | | 46.88  | 54.69 | | 98.44 |
+| Size             | 46  | | 26.09  | 19.57 | 13.04| 45.65  | 58.70 | | 52.17  | 69.57 | | 63.04 |
+| Hidden           | 45  | | 44.44  | 42.22 | 42.22| 42.22  | 51.11 | | 48.89  | 46.67 | | 100   |
+| Deceptive Design | 37  | | 37.84  | 43.24 | 45.95| 64.86  | 70.27 | | 67.56  | 72.97 | | 94.59 |
+| Angle Illusion   | 26  | | 30.77  | 38.46 | 30.77| 53.85  | 69.23 | | 50     | 84.62 | | 84.62 |
+| Color            | 23  | | 30.43  | 26.09 | 30.43| 17.39  | 69.57 | | 17.39  | 82.61 | | 60.87 |
+| Edited-Scene     | 21  | | 42.86  | 61.90 | 42.86| 66.67  | 71.43 | | 66.67  | 80.95 | | 100   |
+| Upside-Down      | 7   | | 42.86  | 71.43 | 71.43| 57.14  | 71.43 | | 57.14  | 71.43 | | 100   |
+| Pos.-Neg. Space  | 7   | | 57.41  | 42.86 | 71.43| 85.71  | 57.14 | | 71.43  | 85.71 | | 100   |
+| Circle-Spiral    | 6   | | 33.33  | 0.00  | 16.67| 33.33  | 50    | | 33.33  | 33.33 | | 66.67 |
+| Miscellaneous    | 19  | | 36.84  | 42.11 | 42.11| 52.63  | 42.11 | | 57.89  | 42.11 | | 89.47 |
+| Total            | 435 | | 34.25  | 40    | 38.16| 51.26  | 58.85 | | 52.87  | 62.99 | | 91.03 |
+
+### IllusonvQA-Soft-Localization
+| VLM         | Prompt Type   | Accuracy |
+|-------------|---------------|----------|
+| InstructBLIP| 0-shot        | 24.3     |
+| LLaVA-1.5   | 0-shot        | 24.8     |
+| CogVLM      | 0-shot        | 28       |
+|             |               |          |
+| GPT4V       | 0-shot        | 40       |
+|             | 4-shot        | 46       |
+|             | 4-shot + CoT  | 49.7     |
+|             |               |          |
+| Gemini Pro  | 0-shot        | 43.5     |
+|             | 4-shot        | 41.8     |
+|             | 4-shot + CoT  | 33.9     |
+|             |               |          |
+| Human       |               | 100      |
 ## Usage
 ```python
 from datasets import load_dataset
