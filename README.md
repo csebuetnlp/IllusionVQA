@@ -1,5 +1,5 @@
 # IllusionVQA: Optical Illusion Dataset
-![examples](https://github.com/csebuetnlp/IllusionVQA/blob/main/asset/example.png?raw=true)
+![examples](https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/example.png?raw=true)
 
 Paper Link: <br>
 IllusionVQA-Comprehension:     [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) <br>
@@ -10,7 +10,7 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 
 
 ## Results
-![spider_graph](https://github.com/csebuetnlp/IllusionVQA/blob/main/asset/spider_graph_3.png?raw=true)
+![spider_graph](https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/spider_graph_3.png?raw=true)
 
 ### IllusionVQA-Comprehension
 | Class            | #   | | 0-shot |       |      |        |       | | 4-shot |       | | Human |
