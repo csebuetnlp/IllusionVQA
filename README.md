@@ -64,61 +64,34 @@ def construct_mcq(options, correct_option):
     correct_option_letter = None
     i = "a"
     mcq = ""
-
     for option in options:
         if option == correct_option:
             correct_option_letter = i
         mcq += f"{i}. {option}\n"
         i = chr(ord(i) + 1)
-
     mcq = mcq[:-1]
     return mcq, correct_option_letter
 
 def add_row(content, data, i, with_answer=False):  
-
     mcq, correct_option_letter = construct_mcq(data["options"], data["answer"])
-
-    content.append({
-            "type": "text",
-            "text": "Image "+str(i)+": "+data["question"]+"\n"+mcq
-        })
-    
-    content.append(
-        {
-            "type": "image_url",
-            "image_url": {
-                "url": f"data:image/jpeg;base64,{encode_image(data["image"])}",
-                "detail": "low"
-            }
-        }
-    )
+    content.append({ "type": "text",
+            "text": "Image "+str(i)+": "+data["question"]+"\n"+mcq })
+    content.append({ "type": "image_url",
+            "image_url": {"url": f"data:image/jpeg;base64,{encode_image(data["image"])}",
+                "detail": "low"}})
     if with_answer:
-        content.append(
-            {
-                "type": "text",
-                "text": "Answer {}: ".format(i)+correct_option_letter
-            }
-        )
+        content.append({"type": "text", "text": "Answer {}: ".format(i)+correct_option_letter})
     else:
-        content.append(
-            {
-                "type": "text",
-                "text": "Answer {}: ".format(i),
-            }
-        )
-    
+        content.append({"type": "text", "text": "Answer {}: ".format(i), })
     return content
 
 dataset = load_dataset("csebuetnlp/illusionVQA-Comprehension")
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-
-content = [
-    {
+content = [{
         "type": "text",
         "text": "You'll be given an image, an instruction and some choices. You have to select the correct one. Do not explain your reasoning. Answer with the option's letter from the given choices directly. Here are a few examples:",
-    }
-]
+    }]
 
 ### Add the few examples
 i = 1
@@ -126,10 +99,7 @@ for data in dataset["train"]:
     content = add_row(content, data, i, with_answer=True)
     i += 1
 
-content.append({
-                    "type": "text",
-                    "text": "Now you try it!",
-                })
+content.append({"type": "text","text": "Now you try it!",})
 
 next_idx = i
 
@@ -140,12 +110,7 @@ content_t = add_row(content.copy(), test_data, next_idx, with_answer=False)
 ### Get the answer from GPT-4
 response = client.chat.completions.create(
     model="gpt-4-vision-preview",
-    messages=[
-        {
-            "role": "user",
-            "content": content_t,
-        }
-    ],
+    messages=[{"role": "user","content": content_t,}],
     max_tokens=5,
 )
 gpt4_answer = response.choices[0].message.content
