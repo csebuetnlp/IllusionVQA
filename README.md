@@ -1,6 +1,7 @@
 # IllusionVQA: Optical Illusion Dataset
 <img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/example.png?raw=true" width=650>
 
+WebPage: [link](https://illusionvqa.github.io/) <br>
 Paper Link: <br>
 IllusionVQA-Comprehension:     [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) <br>
 IllusionVQA-Soft-Localization: [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization)<br>
@@ -126,3 +127,11 @@ You agree to the terms and conditions specified in this license by downloading o
 
 
 ### Citation
+```
+@article{shahgir2024illusionvqa,
+      title={IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models}, 
+      author={Haz Sameen Shahgir and Khondker Salman Sayeed and Abhik Bhattacharjee and Wasi Uddin Ahmad and Yue Dong and Rifat Shahriyar},
+      year={2024},
+      url={https://arxiv.org/abs/2403.15952},
+}
+```
