@@ -99,7 +99,7 @@ content = [{
 for i, data in enumerate(dataset["train"], 1):
     content = add_row(content, data, i, with_answer=True)
 
-content.append({"type": "text","text": "Now you try it!",})
+content.append({"type": "text", "text": "Now you try it!",})
 
 next_idx = i + 1
 
