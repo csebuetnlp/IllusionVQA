@@ -77,12 +77,12 @@ def construct_mcq(options, correct_option):
 def add_row(content, data, i, with_answer=False):  
     mcq, correct_option_letter = construct_mcq(data["options"], data["answer"])
     content.append({ "type": "text",
-            "text": "Image "+str(i)+": "+data["question"]+"\n"+mcq })
+            "text": "Image " + str(i) + ": " + data["question"] + "\n" + mcq })
     content.append({ "type": "image_url",
             "image_url": {"url": f"data:image/jpeg;base64,{encode_image(data["image"])}",
                 "detail": "low"}})
     if with_answer:
-        content.append({"type": "text", "text": "Answer {}: ".format(i)+correct_option_letter})
+        content.append({"type": "text", "text": "Answer {}: ".format(i) + correct_option_letter})
     else:
         content.append({"type": "text", "text": "Answer {}: ".format(i), })
     return content
@@ -95,11 +95,9 @@ content = [{
         "text": "You'll be given an image, an instruction and some choices. You have to select the correct one. Do not explain your reasoning. Answer with the option's letter from the given choices directly. Here are a few examples:",
     }]
 
-### Add the few examples
-i = 1
-for data in dataset["train"]:
+### Add a few examples
+for i, data in enumerate(dataset["train"], 1):
     content = add_row(content, data, i, with_answer=True)
-    i += 1
 
 content.append({"type": "text","text": "Now you try it!",})
 
@@ -120,11 +118,13 @@ print(gpt4_answer)
 ```
 
 ## License
-This dataset is made available for non-commercial research purposes only, including for evaluation of model performance. The dataset may not be used for training models. The dataset contains images collected from the internet. While permission has been obtained from some of the images' creators, permission has not yet been received from all creators. If you believe any image in this dataset is used without proper permission and you are the copyright holder, please email sameen2080@gmail.com to request the removal of the image from the dataset.
+This dataset is made available for non-commercial research purposes only under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). The dataset may not be used for training models. The dataset contains images collected from the internet. While permission has been obtained from some of the images' creators, permission has not yet been received from all creators. If you believe any image in this dataset is used without proper permission and you are the copyright holder, please email sameen2080@gmail.com to request the removal of the image from the dataset.
 
 The dataset creator makes no representations or warranties regarding the copyright status of the images in the dataset. The dataset creator shall not be held liable for any unauthorized use of copyrighted material that may be contained in the dataset.
 
 You agree to the terms and conditions specified in this license by downloading or using this dataset. If you do not agree with these terms, do not download or use the dataset.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 
 ### Citation
