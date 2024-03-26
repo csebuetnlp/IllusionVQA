@@ -101,7 +101,7 @@ for i, data in enumerate(dataset["train"], 1):
 
 content.append({"type": "text","text": "Now you try it!",})
 
-next_idx = i
+next_idx = i + 1
 
 ### Add the test data
 test_data = dataset["test"][0]
