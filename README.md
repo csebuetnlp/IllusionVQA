@@ -1,10 +1,11 @@
 # IllusionVQA: Optical Illusion Dataset
+[Project Page](https://illusionvqa.github.io/) | 
+[Paper](https://arxiv.org/abs/2403.15952) | 
+[🤗 IllusionVQA-Comprehension](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) |
+[🤗 IllusionVQA-Soft-Localization](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization)<br>
+
 <img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/example.png?raw=true" width=650>
 
-WebPage: [link](https://illusionvqa.github.io/) <br>
-Paper Link: [link](https://arxiv.org/abs/2403.15952) <br>
-IllusionVQA-Comprehension:     [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) <br>
-IllusionVQA-Soft-Localization: [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization)<br>
 
 ## TL;DR
 IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes designed to test the capability of Vision Language Models in comprehension and soft localization tasks. GPT4V achieved 62.99% accuracy on comprehension and 49.7% on localization, while humans achieved 91.03% and 100% respectively.
