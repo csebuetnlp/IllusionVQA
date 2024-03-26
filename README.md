@@ -2,7 +2,7 @@
 <img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/example.png?raw=true" width=650>
 
 WebPage: [link](https://illusionvqa.github.io/) <br>
-Paper Link: <br>
+Paper Link: [link](https://arxiv.org/abs/2403.15952) <br>
 IllusionVQA-Comprehension:     [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) <br>
 IllusionVQA-Soft-Localization: [link](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization)<br>
 
