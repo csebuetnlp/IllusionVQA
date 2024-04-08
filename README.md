@@ -1,20 +1,22 @@
 # IllusionVQA: Optical Illusion Dataset
-[Project Page](https://illusionvqa.github.io/) | 
-[Paper](https://arxiv.org/abs/2403.15952) | 
+
+[Project Page](https://illusionvqa.github.io/) |
+[Paper](https://arxiv.org/abs/2403.15952) |
 [🤗 IllusionVQA-Comprehension](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) |
 [🤗 IllusionVQA-Soft-Localization](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization)<br>
 
 <img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/example.png?raw=true" width=650>
 
-
 ## TL;DR
+
 IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes designed to test the capability of Vision Language Models in comprehension and soft localization tasks. GPT4V achieved 62.99% accuracy on comprehension and 49.7% on localization, while humans achieved 91.03% and 100% respectively.
 
-
 ## Results
+
 <img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/spider_graph_3.png?raw=true" width=400>
 
 ### IllusionVQA-Comprehension
+
 | Class            | #   | | 0-shot |       |      |        |       | | 4-shot |       | | Human |
 |------------------|-----|-|--------|-------|------|--------|-------|-|--------|-------|-|-------|
 |                  |     | | I-BLIP | LLaVA | Cog  | Gemini | GPT4V | | Gemini | GPT4V | |       |
@@ -33,6 +35,7 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 | Total            | 435 | | 34.25  | 40    | 38.16| 51.26  | 58.85 | | 52.87  | 62.99 | | 91.03 |
 
 ### IllusonvQA-Soft-Localization
+
 | VLM         | Prompt Type   | Accuracy |
 |-------------|---------------|----------|
 | InstructBLIP| 0-shot        | 24.3     |
@@ -48,7 +51,9 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 |             | 4-shot + CoT  | 33.9     |
 |             |               |          |
 | Human       |               | 100      |
+
 ## Usage
+
 ```python
 from datasets import load_dataset
 import base64
@@ -79,7 +84,7 @@ def add_row(content, data, i, with_answer=False):
     content.append({ "type": "text",
             "text": "Image " + str(i) + ": " + data["question"] + "\n" + mcq })
     content.append({ "type": "image_url",
-            "image_url": {"url": f"data:image/jpeg;base64,{encode_image(data["image"])}",
+            "image_url": {"url": f"data:image/jpeg;base64,{encode_image(data['image'])}",
                 "detail": "low"}})
     if with_answer:
         content.append({"type": "text", "text": "Answer {}: ".format(i) + correct_option_letter})
@@ -118,7 +123,8 @@ print(gpt4_answer)
 ```
 
 ## License
-This dataset is made available for non-commercial research purposes only under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). The dataset may not be used for training models. The dataset contains images collected from the internet. While permission has been obtained from some of the images' creators, permission has not yet been received from all creators. If you believe any image in this dataset is used without proper permission and you are the copyright holder, please email <a href="mailto:sameen2080@gmail.com">Haz Sameen Shahgir</a> to request the removal of the image from the dataset.
+
+This dataset is made available for non-commercial research purposes only under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). The dataset may not be used for training models. The dataset contains images collected from the internet. While permission has been obtained from some of the images' creators, permission has not yet been received from all creators. If you believe any image in this dataset is used without proper permission and you are the copyright holder, please email [Haz Sameen Shahgir](mailto:sameen2080@gmail.com) to request the removal of the image from the dataset.
 
 The dataset creator makes no representations or warranties regarding the copyright status of the images in the dataset. The dataset creator shall not be held liable for any unauthorized use of copyrighted material that may be contained in the dataset.
 
@@ -126,9 +132,9 @@ You agree to the terms and conditions specified in this license by downloading o
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-
 ### Citation
-```
+
+```bibtex
 @article{shahgir2024illusionvqa,
       title={IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models}, 
       author={Haz Sameen Shahgir and Khondker Salman Sayeed and Abhik Bhattacharjee and Wasi Uddin Ahmad and Yue Dong and Rifat Shahriyar},
