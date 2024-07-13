@@ -34,6 +34,26 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 | Miscellaneous    | 19  | | 36.84  | 42.11 | 42.11| 52.63  | 42.11 | | 57.89  | 42.11 | | 89.47 |
 | Total            | 435 | | 34.25  | 40    | 38.16| 51.26  | 58.85 | | 52.87  | 62.99 | | 91.03 |
 
+**New Results [13 July 2024]**
+
+| Class            | #   | | 0-shot | | 4-shot | | Human |
+|------------------|-----|-|--------|-|--------|-|-------|
+|                  |     | | gpt4o  | | gpt4o  | |       |
+| Impossible Object| 134 | | 63.43  | | 61.94  | | 98.51 |
+| Real-Scene       | 64  | | 64.06  | | 57.81  | | 98.44 |
+| Size             | 46  | | 45.65  | | 93.47  | | 63.04 |
+| Hidden           | 45  | | 66.67  | | 48.89  | | 100   |
+| Deceptive Design | 37  | | 72.97  | | 78.38  | | 94.59 |
+| Angle Illusion   | 26  | | 50.00  | | 80.77  | | 84.62 |
+| Color            | 23  | | 52.17  | | 78.26  | | 60.87 |
+| Edited-Scene     | 21  | | 80.95  | | 85.71  | | 100   |
+| Upside-Down      | 7   | | 71.43  | | 42.86  | | 100   |
+| Pos.-Neg. Space  | 7   | | 85.71  | | 71.43  | | 100   |
+| Circle-Spiral    | 6   | | 50.00  | | 50.00  | | 66.67 |
+| Miscellaneous    | 19  | | 53.16  | | 52.63  | | 89.47 |
+| Total            | 435 | | 62.53  | | 67.12  | | 91.03 |
+
+
 ### IllusonvQA-Soft-Localization
 
 | VLM         | Prompt Type   | Accuracy |
