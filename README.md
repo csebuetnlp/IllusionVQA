@@ -50,7 +50,7 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 | Upside-Down      | 7   | | 71.43  | | 42.86  | | 100   |
 | Pos.-Neg. Space  | 7   | | 85.71  | | 71.43  | | 100   |
 | Circle-Spiral    | 6   | | 50.00  | | 50.00  | | 66.67 |
-| Miscellaneous    | 19  | | 53.16  | | 52.63  | | 89.47 |
+| Miscellaneous    | 19  | | 52.63  | | 52.63  | | 89.47 |
 | Total            | 435 | | 62.53  | | 67.12  | | 91.03 |
 
 
