@@ -23,7 +23,6 @@
 # Phi 3.5 Vision Instruct on IllusionVQA-Soft-Localization
 
 0-shot
-
 +-------------------+-------+--------------+
 |      Category     | Total | phi35_answer |
 +-------------------+-------+--------------+
