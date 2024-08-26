@@ -1,78 +1,97 @@
-# IllusionVQA: Optical Illusion Dataset
+# IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models
+
+Code for the Paper "IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models".
+
+For more details, please refer to the project page: https://illusionvqa.github.io.
+
+🔔 If you have any questions or suggestions, please don't hesitate to let us know. You can post an issue on this repository or mail us directly.
 
 [Project Page](https://illusionvqa.github.io/) |
 [Paper](https://arxiv.org/abs/2403.15952) |
 [🤗 IllusionVQA-Comprehension](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) |
 [🤗 IllusionVQA-Soft-Localization](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization)<br>
 
-<img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/example.png?raw=true" width=650>
+<img src="assets/example.png?raw=true" width=650>
 
-## TL;DR
+## 👀 TL;DR
 
 IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes designed to test the capability of Vision Language Models in comprehension and soft localization tasks. GPT4V achieved 62.99% accuracy on comprehension and 49.7% on localization, while humans achieved 91.03% and 100% respectively.
 
-## Results
+## 💥 News 💥
 
-<img src="https://github.com/csebuetnlp/IllusionVQA/blob/main/assets/spider_graph_3.png?raw=true" width=400>
+- **[2024.08.16]** 💥 **OpenAI's GPT-4o achieves new SOTA** on IllusionVQA with **67.12%** on Comprehension and **53.3%** on Soft Localization! Learn more at the  [OpenAI blog](https://openai.com/index/hello-gpt-4o/).
+- **[2024.07.28]** 🚀 [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0/) achieves **45.06%** on Comprehension and **28.3%** on Soft Localization, scoring the best among open source models. 🎉 Congratulations!
+- **[2024.07.09]** 🌟 Our **IllusionVQA** paper has been accepted at **COLM 2024** (acceptance rate 28.8%)! 🎉 Cheers!
+- **[2024.05.28]** ✨ Our work was featured by [Scientific American](https://www.scientificamerican.com/article/optical-illusions-can-fool-ai-chatbots-too/). Thanks! ✨
+- **[2024.03.28]** 🚀 Our project page is live at https://illusionvqa.github.io.
+- **[2024.03.27]** Our dataset is now accessible at [Papers With Code](https://paperswithcode.com/dataset/illusionvqa).
+- **[2024.03.26]** Our dataset is now accessible at Huggingface Datasets! [🧠 Comprehension](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Comprehension) and [🔎 Soft Localization](https://huggingface.co/datasets/csebuetnlp/illusionVQA-Soft-Localization).
+- **[2024.03.26]** Our paper is now accessible at https://arxiv.org/abs/2403.15952.
+
+## 🏆 Results 🏆
+
+<img src="assets/spider-1.png?raw=true" width=400>
+
+For the latest results, checkout out the [leaderboard](https://illusionvqa.github.io/#leaderboard) in the project page.
 
 ### IllusionVQA-Comprehension
 
-| Class            | #   | | 0-shot |       |      |        |       | | 4-shot |       | | Human |
-|------------------|-----|-|--------|-------|------|--------|-------|-|--------|-------|-|-------|
-|                  |     | | I-BLIP | LLaVA | Cog  | Gemini | GPT4V | | Gemini | GPT4V | |       |
-| Impossible Object| 134 | | 34.22  | 43.28 | 44.03| 56.72  | 55.22 | | 56.72  | 58.96 | | 98.51 |
-| Real-Scene       | 64  | | 26.56  | 42.19 | 34.38| 46.88  | 57.81 | | 46.88  | 54.69 | | 98.44 |
-| Size             | 46  | | 26.09  | 19.57 | 13.04| 45.65  | 58.70 | | 52.17  | 69.57 | | 63.04 |
-| Hidden           | 45  | | 44.44  | 42.22 | 42.22| 42.22  | 51.11 | | 48.89  | 46.67 | | 100   |
-| Deceptive Design | 37  | | 37.84  | 43.24 | 45.95| 64.86  | 70.27 | | 67.56  | 72.97 | | 94.59 |
-| Angle Illusion   | 26  | | 30.77  | 38.46 | 30.77| 53.85  | 69.23 | | 50     | 84.62 | | 84.62 |
-| Color            | 23  | | 30.43  | 26.09 | 30.43| 17.39  | 69.57 | | 17.39  | 82.61 | | 60.87 |
-| Edited-Scene     | 21  | | 42.86  | 61.90 | 42.86| 66.67  | 71.43 | | 66.67  | 80.95 | | 100   |
-| Upside-Down      | 7   | | 42.86  | 71.43 | 71.43| 57.14  | 71.43 | | 57.14  | 71.43 | | 100   |
-| Pos.-Neg. Space  | 7   | | 57.41  | 42.86 | 71.43| 85.71  | 57.14 | | 71.43  | 85.71 | | 100   |
-| Circle-Spiral    | 6   | | 33.33  | 0.00  | 16.67| 33.33  | 50    | | 33.33  | 33.33 | | 66.67 |
-| Miscellaneous    | 19  | | 36.84  | 42.11 | 42.11| 52.63  | 42.11 | | 57.89  | 42.11 | | 89.47 |
-| Total            | 435 | | 34.25  | 40    | 38.16| 51.26  | 58.85 | | 52.87  | 62.99 | | 91.03 |
+| Class             | #   |     | 0-shot |       |       |        |       |     | 4-shot |       |     | Human |
+| ----------------- | --- | --- | ------ | ----- | ----- | ------ | ----- | --- | ------ | ----- | --- | ----- |
+|                   |     |     | I-BLIP | LLaVA | Cog   | Gemini | GPT4V |     | Gemini | GPT4V |     |       |
+| Impossible Object | 134 |     | 34.22  | 43.28 | 44.03 | 56.72  | 55.22 |     | 56.72  | 58.96 |     | 98.51 |
+| Real-Scene        | 64  |     | 26.56  | 42.19 | 34.38 | 46.88  | 57.81 |     | 46.88  | 54.69 |     | 98.44 |
+| Size              | 46  |     | 26.09  | 19.57 | 13.04 | 45.65  | 58.70 |     | 52.17  | 69.57 |     | 63.04 |
+| Hidden            | 45  |     | 44.44  | 42.22 | 42.22 | 42.22  | 51.11 |     | 48.89  | 46.67 |     | 100   |
+| Deceptive Design  | 37  |     | 37.84  | 43.24 | 45.95 | 64.86  | 70.27 |     | 67.56  | 72.97 |     | 94.59 |
+| Angle Illusion    | 26  |     | 30.77  | 38.46 | 30.77 | 53.85  | 69.23 |     | 50     | 84.62 |     | 84.62 |
+| Color             | 23  |     | 30.43  | 26.09 | 30.43 | 17.39  | 69.57 |     | 17.39  | 82.61 |     | 60.87 |
+| Edited-Scene      | 21  |     | 42.86  | 61.90 | 42.86 | 66.67  | 71.43 |     | 66.67  | 80.95 |     | 100   |
+| Upside-Down       | 7   |     | 42.86  | 71.43 | 71.43 | 57.14  | 71.43 |     | 57.14  | 71.43 |     | 100   |
+| Pos.-Neg. Space   | 7   |     | 57.41  | 42.86 | 71.43 | 85.71  | 57.14 |     | 71.43  | 85.71 |     | 100   |
+| Circle-Spiral     | 6   |     | 33.33  | 0.00  | 16.67 | 33.33  | 50    |     | 33.33  | 33.33 |     | 66.67 |
+| Miscellaneous     | 19  |     | 36.84  | 42.11 | 42.11 | 52.63  | 42.11 |     | 57.89  | 42.11 |     | 89.47 |
+| Total             | 435 |     | 34.25  | 40    | 38.16 | 51.26  | 58.85 |     | 52.87  | 62.99 |     | 91.03 |
 
 **New Results [13 July 2024]**
 
-| Class            | #   | | 0-shot | | 4-shot | | Human |
-|------------------|-----|-|--------|-|--------|-|-------|
-|                  |     | | gpt4o  | | gpt4o  | |       |
-| Impossible Object| 134 | | 63.43  | | 61.94  | | 98.51 |
-| Real-Scene       | 64  | | 64.06  | | 57.81  | | 98.44 |
-| Size             | 46  | | 45.65  | | 93.47  | | 63.04 |
-| Hidden           | 45  | | 66.67  | | 48.89  | | 100   |
-| Deceptive Design | 37  | | 72.97  | | 78.38  | | 94.59 |
-| Angle Illusion   | 26  | | 50.00  | | 80.77  | | 84.62 |
-| Color            | 23  | | 52.17  | | 78.26  | | 60.87 |
-| Edited-Scene     | 21  | | 80.95  | | 85.71  | | 100   |
-| Upside-Down      | 7   | | 71.43  | | 42.86  | | 100   |
-| Pos.-Neg. Space  | 7   | | 85.71  | | 71.43  | | 100   |
-| Circle-Spiral    | 6   | | 50.00  | | 50.00  | | 66.67 |
-| Miscellaneous    | 19  | | 52.63  | | 52.63  | | 89.47 |
-| Total            | 435 | | 62.53  | | 67.12  | | 91.03 |
+| Class             | #   |     | 0-shot |     | 4-shot |     | Human |
+| ----------------- | --- | --- | ------ | --- | ------ | --- | ----- |
+|                   |     |     | gpt4o  |     | gpt4o  |     |       |
+| Impossible Object | 134 |     | 63.43  |     | 61.94  |     | 98.51 |
+| Real-Scene        | 64  |     | 64.06  |     | 57.81  |     | 98.44 |
+| Size              | 46  |     | 45.65  |     | 93.47  |     | 63.04 |
+| Hidden            | 45  |     | 66.67  |     | 48.89  |     | 100   |
+| Deceptive Design  | 37  |     | 72.97  |     | 78.38  |     | 94.59 |
+| Angle Illusion    | 26  |     | 50.00  |     | 80.77  |     | 84.62 |
+| Color             | 23  |     | 52.17  |     | 78.26  |     | 60.87 |
+| Edited-Scene      | 21  |     | 80.95  |     | 85.71  |     | 100   |
+| Upside-Down       | 7   |     | 71.43  |     | 42.86  |     | 100   |
+| Pos.-Neg. Space   | 7   |     | 85.71  |     | 71.43  |     | 100   |
+| Circle-Spiral     | 6   |     | 50.00  |     | 50.00  |     | 66.67 |
+| Miscellaneous     | 19  |     | 52.63  |     | 52.63  |     | 89.47 |
+| Total             | 435 |     | 62.53  |     | 67.12  |     | 91.03 |
 
 
 ### IllusonvQA-Soft-Localization
 
-| VLM         | Prompt Type   | Accuracy |
-|-------------|---------------|----------|
-| InstructBLIP| 0-shot        | 24.3     |
-| LLaVA-1.5   | 0-shot        | 24.8     |
-| CogVLM      | 0-shot        | 28       |
-|             |               |          |
-| GPT4V       | 0-shot        | 40       |
-|             | 4-shot        | 46       |
-|             | 4-shot + CoT  | 49.7     |
-|             |               |          |
-| Gemini Pro  | 0-shot        | 43.5     |
-|             | 4-shot        | 41.8     |
-|             | 4-shot + CoT  | 33.9     |
-|             |               |          |
-| Human       |               | 100      |
+| VLM          | Prompt Type  | Accuracy |
+| ------------ | ------------ | -------- |
+| InstructBLIP | 0-shot       | 24.3     |
+| LLaVA-1.5    | 0-shot       | 24.8     |
+| CogVLM       | 0-shot       | 28       |
+|              |              |          |
+| GPT4V        | 0-shot       | 40       |
+|              | 4-shot       | 46       |
+|              | 4-shot + CoT | 49.7     |
+|              |              |          |
+| Gemini Pro   | 0-shot       | 43.5     |
+|              | 4-shot       | 41.8     |
+|              | 4-shot + CoT | 33.9     |
+|              |              |          |
+| Human        |              | 100      |
 
-## Usage
+## 📖 Usage
 
 ```python
 from datasets import load_dataset
@@ -142,7 +161,7 @@ gpt4_answer = response.choices[0].message.content
 print(gpt4_answer)
 ```
 
-## License
+## 📜 License
 
 This dataset is made available for non-commercial research purposes only under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). The dataset may not be used for training models. The dataset contains images collected from the internet. While permission has been obtained from some of the images' creators, permission has not yet been received from all creators. If you believe any image in this dataset is used without proper permission and you are the copyright holder, please email [Haz Sameen Shahgir](mailto:sameen2080@gmail.com) to request the removal of the image from the dataset.
 
@@ -152,11 +171,13 @@ You agree to the terms and conditions specified in this license by downloading o
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-### Citation
+## ✅ Cite
 
 ```bibtex
 @article{shahgir2024illusionvqa,
-      title={IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models}, 
+      title={IllusionVQA: A Challenging Optical Illusion Dataset fo
+      
+      r Vision Language Models}, 
       author={Haz Sameen Shahgir and Khondker Salman Sayeed and Abhik Bhattacharjee and Wasi Uddin Ahmad and Yue Dong and Rifat Shahriyar},
       year={2024},
       url={https://arxiv.org/abs/2403.15952},
