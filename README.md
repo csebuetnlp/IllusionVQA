@@ -4,7 +4,7 @@ Code for the Paper "IllusionVQA: A Challenging Optical Illusion Dataset for Visi
 
 For more details, please refer to the project page: https://illusionvqa.github.io.
 
-🔔 If you have any questions or suggestions, please don't hesitate to let us know. You can post an issue on this repository or mail us directly.
+🔔 If you have any questions or suggestions, please don't hesitate to let us know. You can post an issue on this repository or [mail us](mailto:sameen2080@gmail.com) directly.
 
 [Project Page](https://illusionvqa.github.io/) |
 [Paper](https://arxiv.org/abs/2403.15952) |
@@ -19,6 +19,7 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 
 ## 💥 News 💥
 
+- **[2024.08.16]** 💥 **Claude 3.5 Sonnet achieves 2nd place on comprehension** with **66.44**! Learn more at the [Anthropic blog](https://www.anthropic.com/news/claude-3-5-sonnet).
 - **[2024.08.16]** 💥 **OpenAI's GPT-4o achieves new SOTA** on IllusionVQA with **67.12%** on Comprehension and **53.3%** on Soft Localization! Learn more at the  [OpenAI blog](https://openai.com/index/hello-gpt-4o/).
 - **[2024.07.28]** 🚀 [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0/) achieves **45.06%** on Comprehension and **28.3%** on Soft Localization, scoring the best among open source models. 🎉 Congratulations!
 - **[2024.07.09]** 🌟 Our **IllusionVQA** paper has been accepted at **COLM 2024** (acceptance rate 28.8%)! 🎉 Cheers!
