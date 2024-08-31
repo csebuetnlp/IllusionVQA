@@ -19,6 +19,7 @@ IllusionVQA is a dataset of optical illusions and hard-to-interpret scenes desig
 
 ## 💥 News 💥
 
+- **[2024.08.31]** 💥 **Gemini-1.5-Pro tops both Comprehension and Soft-Localization leaderboards**! With a significant lead in Comprehension (71% vs. second place 67%). Gemini-1.5-Flash places 7th and 4th respectively.
 - **[2024.08.16]** 💥 **Claude 3.5 Sonnet achieves 2nd place on comprehension** with **66.44**! Learn more at the [Anthropic blog](https://www.anthropic.com/news/claude-3-5-sonnet).
 - **[2024.08.16]** 💥 **OpenAI's GPT-4o achieves new SOTA** on IllusionVQA with **67.12%** on Comprehension and **53.3%** on Soft Localization! Learn more at the  [OpenAI blog](https://openai.com/index/hello-gpt-4o/).
 - **[2024.07.28]** 🚀 [InternVL2](https://internvl.github.io/blog/2024-07-02-InternVL-2.0/) achieves **45.06%** on Comprehension and **28.3%** on Soft Localization, scoring the best among open source models. 🎉 Congratulations!
