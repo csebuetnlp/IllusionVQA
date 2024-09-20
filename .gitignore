@@ -1,3 +1,5 @@
 .env
 illusionVQA/
 temp.jpg
+hf_cache
+llama3v.ipynb
