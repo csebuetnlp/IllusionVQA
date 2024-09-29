@@ -176,12 +176,12 @@ You agree to the terms and conditions specified in this license by downloading o
 ## ✅ Cite
 
 ```bibtex
-@article{shahgir2024illusionvqa,
-      title={IllusionVQA: A Challenging Optical Illusion Dataset fo
-      
-      r Vision Language Models}, 
-      author={Haz Sameen Shahgir and Khondker Salman Sayeed and Abhik Bhattacharjee and Wasi Uddin Ahmad and Yue Dong and Rifat Shahriyar},
-      year={2024},
-      url={https://arxiv.org/abs/2403.15952},
+@inproceedings{
+shahgir2024illusionvqa,
+title={Illusion{VQA}: A Challenging Optical Illusion Dataset for Vision Language Models},
+author={Haz Sameen Shahgir and Khondker Salman Sayeed and Abhik Bhattacharjee and Wasi Uddin Ahmad and Yue Dong and Rifat Shahriyar},
+booktitle={First Conference on Language Modeling},
+year={2024},
+url={https://openreview.net/forum?id=7ysaJGs7zY}
 }
 ```
